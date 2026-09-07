@@ -2,7 +2,7 @@
 **Case Name:** Operation Phantom Swipe  
 **Case Tracking Number:** DFS-2026-OPSW-009  
 **Investigating Unit:** Cyber Crime Investigation Cell (CCIC), Central Bureau of Investigation / State Cyber Cell  
-**Lead Investigator:** Inspr. S. Sharma, Lead Digital Forensics Examiner (Badge ID: DF-8841)  
+**Lead Investigator:** Parth Bhardwaj, Lead Digital Forensics Examiner (Roll No: 2301730289)  
 
 ---
 

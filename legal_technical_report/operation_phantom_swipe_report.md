@@ -3,6 +3,7 @@
 
 **Case File Reference:** DFS-2026-OPSW-009  
 **Investigating Authority:** Digital Forensics & Cyber Crime Division, Central Bureau of Investigation  
+**Lead Investigator / Author:** Parth Bhardwaj (Roll No: 2301730289)  
 **Date of Issue:** September 7, 2026  
 **Classification:** HIGHLY CONFIDENTIAL / LAW ENFORCEMENT RESTRICTED  
 
@@ -187,7 +188,7 @@ Investigating cross-border financial cybercrime introduces significant legal and
 
 I hereby declare that this report represents an objective, forensic technical-legal analysis of the digital evidence seized in Operation Phantom Swipe. All hash values, extracted artefacts, and cracking results have been empirically verified.
 
-**Lead Forensic Examiner:** Inspr. S. Sharma  
-**Signature:** `S. Sharma`  
+**Lead Forensic Examiner:** Parth Bhardwaj (Roll No: 2301730289)  
+**Signature:** `Parth Bhardwaj`  
 **Date:** September 7, 2026  
 **Digital Forensics & Cyber Crime Division, CBI**

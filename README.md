@@ -2,15 +2,16 @@
 
 **Course Unit:** Unit 1 – Foundations of Digital Forensics  
 **Assignment Title:** Assignment 1 – Operation Phantom Swipe  
+**Student Name:** Parth Bhardwaj  
+**Roll Number:** 2301730289  
 **Case File Reference:** `DFS-2026-OPSW-009`  
-**Author / Investigator:** Lead Digital Forensics Examiner  
 **Repository Validation:** [![Forensic Validation CI](https://github.com/bhardwajparth51/Cyber-Crime-Investigation-And-Digital-Forensics-Lab-Assignment-1-/actions/workflows/validate.yml/badge.svg)](https://github.com/bhardwajparth51/Cyber-Crime-Investigation-And-Digital-Forensics-Lab-Assignment-1-/actions/workflows/validate.yml)
 
 ---
 
 ## 📜 AUTHORSHIP DECLARATION
 
-I hereby declare that the work presented in this digital forensics repository is entirely my own original work. All simulated evidence datasets, cryptographic hash manifestations, forensic search scripts, password cracking tools, chain of custody forms, and technical-legal analysis reports were developed strictly in accordance with academic integrity guidelines and digital forensics standard operating procedures (ISO/IEC 27037 & NIST SP 800-86).
+I, **Parth Bhardwaj** (Roll No: **2301730289**), hereby declare that the work presented in this digital forensics repository is entirely my own original work. All simulated evidence datasets, cryptographic hash manifestations, forensic search scripts, password cracking tools, chain of custody forms, and technical-legal analysis reports were developed strictly in accordance with academic integrity guidelines and digital forensics standard operating procedures (ISO/IEC 27037 & NIST SP 800-86).
 
 ---
 
