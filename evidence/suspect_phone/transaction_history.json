@@ -1,0 +1,43 @@
+{
+    "case_reference": "OP-PHANTOM-SWIPE-2026",
+    "crypto_wallets": [
+        {
+            "currency": "Bitcoin (BTC)",
+            "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+            "balance_btc": 1.482,
+            "transactions": [
+                {
+                    "txid": "7f9a8b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a",
+                    "type": "RECEIVE",
+                    "amount_btc": 0.5,
+                    "timestamp": "2026-09-01T12:00:00Z",
+                    "source": "CardersParadise Escrow"
+                }
+            ]
+        },
+        {
+            "currency": "Tether (USDT - TRC20)",
+            "address": "TR7NHqjeKQGJmG4q884U4Z76884U4Z7688",
+            "balance_usdt": 12500.0,
+            "transactions": [
+                {
+                    "txid": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "type": "RECEIVE",
+                    "amount_usdt": 5500.0,
+                    "timestamp": "2026-08-31T09:30:00Z",
+                    "source": "Mule_Handler_Delhi"
+                }
+            ]
+        }
+    ],
+    "online_fraud_purchases": [
+        {
+            "order_id": "ORD-2026-8891",
+            "merchant": "Amazon.in",
+            "amount_inr": 89999.0,
+            "card_used": "5241999988885678",
+            "cardholder_name": "AMIT VERMA",
+            "delivery_address": "Flat 402, Indiranagar, Bengaluru, KA - 560038"
+        }
+    ]
+}

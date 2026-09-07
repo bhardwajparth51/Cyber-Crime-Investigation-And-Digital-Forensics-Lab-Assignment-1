@@ -1,0 +1,6 @@
+timestamp,latitude,longitude,altitude_m,accuracy_m,location_label,connected_wifi
+2026-08-30T13:45:00Z,28.6315,77.2167,216.5,4.2,"Connaught Place Block C, New Delhi (ATM Kiosk)","HDFC_ATM_FREE_WIFI"
+2026-08-30T14:15:00Z,28.6320,77.2190,217.0,3.8,"Connaught Place Outer Circle, New Delhi","Cafe_Coffee_Day_CP"
+2026-08-30T19:30:00Z,28.6508,77.1915,218.2,5.1,"Karol Bagh Metro Station, New Delhi","Airtel_5G_Plus"
+2026-08-31T01:45:00Z,28.6520,77.1930,217.8,4.0,"SBI ATM Kiosk, Karol Bagh, New Delhi (Withdrawal Site)","SBI_ATM_Kiosk_Net"
+2026-09-01T10:30:00Z,12.9784,77.6408,920.1,3.5,"Indiranagar 100ft Road, Bengaluru (Safehouse)","Phantom_Safehouse_5G"

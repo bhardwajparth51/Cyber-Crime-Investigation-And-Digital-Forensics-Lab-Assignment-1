@@ -1,0 +1,92 @@
+name: Operation Phantom Swipe - Forensic Repository CI Validation
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  validate-forensic-repo:
+    name: Validate Directory Structure, Hashes & Deliverables
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Forensic Script Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install reportlab python-docx pillow pyzipper
+
+      - name: Validate Required Directory Structure & Files
+        run: |
+          python -c "
+          import os, sys
+
+          required_files = [
+              'chain_of_custody/chain_of_custody_form.md',
+              'chain_of_custody/chain_of_custody_form.pdf',
+              'chain_of_custody/chain_of_custody_form.docx',
+              'chain_of_custody/evidence_hashes.sha256',
+              'chain_of_custody/evidence_handling_sop.md',
+              'cryptography/encrypted_vault.zip',
+              'cryptography/dictionary.txt',
+              'cryptography/crypto_ethical_reflection.md',
+              'evidence/skimmer_device/msr605_dump.raw',
+              'evidence/skimmer_device/track2_data.txt',
+              'evidence/suspect_phone/chat_backup.json',
+              'evidence/suspect_phone/gps_logs.csv',
+              'evidence/suspect_phone/transaction_history.json',
+              'evidence/suspect_phone/app_metadata.xml',
+              'legal_technical_report/operation_phantom_swipe_report.md',
+              'legal_technical_report/operation_phantom_swipe_report.pdf',
+              'legal_technical_report/operation_phantom_swipe_report.docx',
+              'tools/hash_generator.py',
+              'tools/forensic_search.py',
+              'tools/password_cracker.py',
+              'tools/generate_report.py',
+              'tools/generate_screenshots.py',
+              'screenshots/hash_generation.png',
+              'screenshots/forensic_search_execution.png',
+              'screenshots/password_crack_output.png',
+              'screenshots/ci_workflow_passing.png',
+              'README.md'
+          ]
+
+          missing = []
+          for f in required_files:
+              if not os.path.exists(f):
+                  missing.append(f)
+
+          if missing:
+              print('[-] MISSING REQUIRED REPOSITORY DELIVERABLES:')
+              for m in missing:
+                  print(f'   - {m}')
+              sys.exit(1)
+          else:
+              print('[+] SUCCESS: All required repository deliverables are present!')
+          "
+
+      - name: Verify SHA-256 Evidence Hashes Manifest
+        run: |
+          python tools/hash_generator.py --verify
+
+      - name: Execute Automated Forensic Search Engine
+        run: |
+          python tools/forensic_search.py
+
+      - name: Execute Password Cracking Engine
+        run: |
+          python tools/password_cracker.py
+
+      - name: Re-generate Legal Technical Reports & Verify Output
+        run: |
+          python tools/generate_report.py

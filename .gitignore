@@ -1,0 +1,21 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & IDEs
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini

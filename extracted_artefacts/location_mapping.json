@@ -1,0 +1,47 @@
+[
+    {
+        "timestamp": "2026-08-30T13:45:00Z",
+        "latitude": "28.6315",
+        "longitude": "77.2167",
+        "altitude_m": "216.5",
+        "accuracy_m": "4.2",
+        "location_label": "Connaught Place Block C, New Delhi (ATM Kiosk)",
+        "connected_wifi": "HDFC_ATM_FREE_WIFI"
+    },
+    {
+        "timestamp": "2026-08-30T14:15:00Z",
+        "latitude": "28.6320",
+        "longitude": "77.2190",
+        "altitude_m": "217.0",
+        "accuracy_m": "3.8",
+        "location_label": "Connaught Place Outer Circle, New Delhi",
+        "connected_wifi": "Cafe_Coffee_Day_CP"
+    },
+    {
+        "timestamp": "2026-08-30T19:30:00Z",
+        "latitude": "28.6508",
+        "longitude": "77.1915",
+        "altitude_m": "218.2",
+        "accuracy_m": "5.1",
+        "location_label": "Karol Bagh Metro Station, New Delhi",
+        "connected_wifi": "Airtel_5G_Plus"
+    },
+    {
+        "timestamp": "2026-08-31T01:45:00Z",
+        "latitude": "28.6520",
+        "longitude": "77.1930",
+        "altitude_m": "217.8",
+        "accuracy_m": "4.0",
+        "location_label": "SBI ATM Kiosk, Karol Bagh, New Delhi (Withdrawal Site)",
+        "connected_wifi": "SBI_ATM_Kiosk_Net"
+    },
+    {
+        "timestamp": "2026-09-01T10:30:00Z",
+        "latitude": "12.9784",
+        "longitude": "77.6408",
+        "altitude_m": "920.1",
+        "accuracy_m": "3.5",
+        "location_label": "Indiranagar 100ft Road, Bengaluru (Safehouse)",
+        "connected_wifi": "Phantom_Safehouse_5G"
+    }
+]

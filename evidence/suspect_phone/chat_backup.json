@@ -1,0 +1,53 @@
+{
+    "application": "Telegram Secure Messaging (Exported Database)",
+    "account_owner": "+91-9876501234 (Alias: Phantom_Admin)",
+    "chats": [
+        {
+            "chat_id": "TG-882109",
+            "contact": "Mule_Handler_Delhi (+91-9811122233)",
+            "messages": [
+                {
+                    "timestamp": "2026-08-30T14:22:10Z",
+                    "sender": "Phantom_Admin",
+                    "text": "New skimmer installed at HDFC Kiosk, Connaught Place Block C. BLE device ID is BLE-SKIM-889."
+                },
+                {
+                    "timestamp": "2026-08-30T14:25:00Z",
+                    "sender": "Mule_Handler_Delhi",
+                    "text": "Copy that. Overlay PIN pad camera battery is fully charged. How many swipes harvested so far?"
+                },
+                {
+                    "timestamp": "2026-08-30T18:40:15Z",
+                    "sender": "Phantom_Admin",
+                    "text": "Over 45 dumps collected today. I'm encoding blank JCOP Java cards tonight. Use cash withdrawal mules at Karol Bagh ATM at 2:00 AM."
+                },
+                {
+                    "timestamp": "2026-08-31T09:12:44Z",
+                    "sender": "Mule_Handler_Delhi",
+                    "text": "Cash fetched \u20b94,50,000. Converted to USDT address: 0x71C7656EC7ab88b098defB751B7401B5f6d8976F. Vault zip password set to 'phantom2026'."
+                }
+            ]
+        },
+        {
+            "chat_id": "TG-994122",
+            "contact": "Carder_Vendor_Global (@DarkCarderX)",
+            "messages": [
+                {
+                    "timestamp": "2026-09-01T11:05:22Z",
+                    "sender": "Phantom_Admin",
+                    "text": "Selling fresh Track 1 & Track 2 US/India dumps with 100% valid PINs. Price: $50 per dump in BTC."
+                },
+                {
+                    "timestamp": "2026-09-01T11:10:00Z",
+                    "sender": "Carder_Vendor_Global",
+                    "text": "Send sample dump for validation."
+                },
+                {
+                    "timestamp": "2026-09-01T11:12:30Z",
+                    "sender": "Phantom_Admin",
+                    "text": "Sample: 4012888899991234=251210123456789 PIN:8492. Check balance on card."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+type,currency_card,address_merchant,amount,timestamp,notes
+CRYPTO,Bitcoin (BTC),bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh,0.5,2026-09-01T12:00:00Z,Source: CardersParadise Escrow (TXID: 7f9a8b1c2d3e4f5a...)
+CRYPTO,Tether (USDT - TRC20),TR7NHqjeKQGJmG4q884U4Z76884U4Z7688,5500.0,2026-08-31T09:30:00Z,Source: Mule_Handler_Delhi (TXID: e3b0c44298fc1c14...)
+CARD_PURCHASE,Card: 5241999988885678,Amazon.in,₹89999.0,2026-09-01T10:00:00Z,"Delivery: Flat 402, Indiranagar, Bengaluru, KA - 560038"

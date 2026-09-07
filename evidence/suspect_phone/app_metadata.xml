@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map>
+    <string name="app_name">ATM_Ghost_v3.2</string>
+    <string name="package_name">com.phantom.skimming.controller</string>
+    <string name="ble_target_mac">AA:BB:CC:11:22:33</string>
+    <string name="encryption_key_hash">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</string>
+    <string name="exfiltration_server">https://c2.phantom-swipe-net.cc/api/v1/upload</string>
+    <int name="auto_wipe_after_failed_pings" value="5" />
+    <boolean name="stealth_mode_enabled" value="true" />
+</map>
