@@ -4,7 +4,7 @@
 **Assignment Title:** Assignment 1 – Operation Phantom Swipe  
 **Case File Reference:** `DFS-2026-OPSW-009`  
 **Author / Investigator:** Lead Digital Forensics Examiner  
-**Repository Validation:** [![Forensic Validation CI](https://github.com/user/cyber-forensics/actions/workflows/validate.yml/badge.svg)](.github/workflows/validate.yml)
+**Repository Validation:** [![Forensic Validation CI](https://github.com/bhardwajparth51/Cyber-Crime-Investigation-And-Digital-Forensics-Lab-Assignment-1-/actions/workflows/validate.yml/badge.svg)](https://github.com/bhardwajparth51/Cyber-Crime-Investigation-And-Digital-Forensics-Lab-Assignment-1-/actions/workflows/validate.yml)
 
 ---
 
