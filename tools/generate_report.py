@@ -29,6 +29,12 @@ DOCUMENTS = [
         "pdf": os.path.join(BASE_DIR, 'chain_of_custody', 'chain_of_custody_form.pdf'),
         "docx": os.path.join(BASE_DIR, 'chain_of_custody', 'chain_of_custody_form.docx'),
         "title": "Chain of Custody Form"
+    },
+    {
+        "md": os.path.join(BASE_DIR, 'presentation', 'presentation_guide.md'),
+        "pdf": os.path.join(BASE_DIR, 'presentation', 'presentation_slides.pdf'),
+        "docx": os.path.join(BASE_DIR, 'presentation', 'presentation_slides.docx'),
+        "title": "Presentation & Viva Guide"
     }
 ]
 

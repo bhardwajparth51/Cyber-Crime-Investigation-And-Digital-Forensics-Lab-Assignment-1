@@ -67,6 +67,10 @@ cyber forensics/
 │   ├── operation_phantom_swipe_report.md   # 4-6 Page Markdown Technical-Legal Report
 │   ├── operation_phantom_swipe_report.pdf  # Compiled PDF Technical-Legal Report
 │   └── operation_phantom_swipe_report.docx # Compiled DOCX Technical-Legal Report
+├── presentation/
+│   ├── presentation_guide.md            # Presentation script, slide outline & Viva Voce Q&A
+│   ├── presentation_slides.pdf           # Landscape Presentation Handout (PDF)
+│   └── presentation_slides.docx          # Presentation Handout (DOCX)
 ├── screenshots/
 │   ├── hash_generation.png              # Visual terminal screenshot of SHA-256 hashing
 │   ├── forensic_search_execution.png    # Visual terminal screenshot of search engine
