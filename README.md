@@ -9,12 +9,6 @@
 
 ---
 
-## 📜 AUTHORSHIP DECLARATION
-
-I, **Parth Bhardwaj** (Roll No: **2301730289**), hereby declare that the work presented in this digital forensics repository is entirely my own original work. All simulated evidence datasets, cryptographic hash manifestations, forensic search scripts, password cracking tools, chain of custody forms, and technical-legal analysis reports were developed strictly in accordance with academic integrity guidelines and digital forensics standard operating procedures (ISO/IEC 27037 & NIST SP 800-86).
-
----
-
 ## 🎯 OBJECTIVE & SCENARIO OVERVIEW
 
 This repository contains the complete forensic investigation deliverables for **Operation Phantom Swipe**, a simulated early-phase cross-border investigation into an international ATM skimming, magnetic card cloning, online credit card fraud, and cryptocurrency money laundering ring operating across India and international jurisdictions.
@@ -85,19 +79,6 @@ cyber forensics/
 │   └── generate_screenshots.py          # High-resolution terminal screenshot drawer
 └── README.md                            # Comprehensive execution guide & documentation
 ```
-
----
-
-## 📊 EVALUATION CRITERIA MATRIX (TOTAL: 10 MARKS)
-
-| Sub-Problem & Criteria | Allocated Marks | Deliverable Location in Repository | Status |
-|---|---|---|---|
-| **1. Cybercrime Taxonomy & Legal Mapping** | 1.5 Marks | `legal_technical_report/operation_phantom_swipe_report.md` (Sec 1) | **COMPLETE** |
-| **2. Evidence Acquisition & Chain of Custody** | 2.0 Marks | `chain_of_custody/`, `evidence_hashes.sha256`, `tools/hash_generator.py` | **COMPLETE** |
-| **3. File/Media Analysis & Artefact Extraction** | 2.0 Marks | `extracted_artefacts/`, `tools/forensic_search.py` | **COMPLETE** |
-| **4. Cryptography Simulation & Discussion** | 1.5 Marks | `cryptography/`, `tools/password_cracker.py` | **COMPLETE** |
-| **5. Final Legal-Technical Report Quality** | 2.0 Marks | `legal_technical_report/` (`.md`, `.pdf`, `.docx`) | **COMPLETE** |
-| **6. GitHub Structure & CI Compliance** | 1.0 Mark | `.github/workflows/validate.yml`, `README.md`, `screenshots/` | **COMPLETE** |
 
 ---
 
